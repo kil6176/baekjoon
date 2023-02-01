@@ -1,6 +1,6 @@
 import java.util.*;
 class Solution {
-    public static int solution(int n, int[] lost, int[] reserve) {
+       public static int solution(int n, int[] lost, int[] reserve) {
         int answer = 0;
         boolean[] arr = new boolean[n+2]; // 체육복 가지고있는사람
         boolean[] reserveArr = new boolean[n+2]; //여벌배열
@@ -49,5 +49,5 @@ class Solution {
                 answer++;
         }
         return answer;
-    }
+       }
 }
